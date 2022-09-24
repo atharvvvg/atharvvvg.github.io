@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.pehla-dibba {
+    background-image: url('19184237_6068294.jpg');
+    background-size: 100%;
+    height: 700px;
+}
+
+.upar-line {
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: left;
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+}
+
+.list {
+    justify-content: space-between;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    float:10px;
+}
+
+.intro-font {
+    margin-left: 5px;
+    font-size: 30px;
+    font-family: 'Cairo Play', cursive;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+li a:hover {
+    color: #0078AA;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+    transition-delay: 200ms;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.intro {
+    padding: 20px;
+    margin: 50px 0 0 40px;
+}
+
+.intro-hi {
+    color: black;
+    font-size: 70px;
+    margin-bottom: 1px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.stud {
+    color: black;
+    font-size: 45px;
+    margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.dusra-dibba {
+    margin: 0 0 0 0;
+    background-image:url('plain-beige-background-texture.jpg');
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 100rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 90px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.25em;
+    position: relative;
+}
+
+.about-dibba {
+    left: 50px;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 5%;
+    margin: 0 auto;
+    position: absolute;
+    top: 820px;
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    overflow-wrap: break-word;
+    margin: 50px 0 0 100px;
+    width: 500px;
+    height: 300px;
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    float: left;
+}
+
+.about-dibba .pp {
+    font-size: 17px;
+}
