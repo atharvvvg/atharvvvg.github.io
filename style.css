@@ -2,14 +2,24 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0 auto;
+}
+
 .pehla-dibba {
-    background-image: url('19184237_6068294.jpg');
+    /*background-image: url('19184237_6068294.jpg');*/
+    background-image: url('images/23191005_Background_with_line_wave_pattern_5.jpg');
     background-size: 100%;
     height: 700px;
 }
 
 .upar-line {
-    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /*backdrop-filter: blur(5px);*/
     padding: 10px;
 }
 
@@ -80,6 +90,7 @@ ul {
     font-size: 70px;
     margin-bottom: 1px;
     font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -0.1rem;
 }
 
 .stud {
@@ -87,11 +98,13 @@ ul {
     font-size: 45px;
     margin-top: 0px;
     font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -0.1rem;
 }
 
 .dusra-dibba {
     margin: 0 0 0 0;
-    background-image:url('plain-beige-background-texture.jpg');
+    /*background-image:url('plain-beige-background-texture.jpg');*/
+    background-color: rgb(223, 238, 234);
     width: 100%;
 }
 
@@ -106,6 +119,7 @@ ul {
     text-align: center;
     line-height: 0.25em;
     position: relative;
+    height: 30rem;
 }
 
 .about-dibba {
@@ -121,7 +135,7 @@ ul {
     border-radius: 5%;
     margin: 0 auto;
     position: absolute;
-    top: 50em;
+    top: 51em;
     backdrop-filter: blur(3px);
     padding: 10px;
     overflow-wrap: break-word;
@@ -147,8 +161,17 @@ ul {
 
 .abme-img {
     position: absolute;
-    top: 50rem;
-    left: 50rem;
+    top: 54rem;
+    left: 60rem;
+}
+
+.img-me {
+    max-width: 50%;
+}
+
+.teesra-dibba {
+    height: 100%;
+    background-color: red;
 }
 
 .skills {
