@@ -109,24 +109,57 @@ ul {
 }
 
 .about-dibba {
-    left: 50px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    left: 6em;
     z-index: 1;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5%;
     margin: 0 auto;
     position: absolute;
-    top: 820px;
+    top: 50em;
     backdrop-filter: blur(3px);
     padding: 10px;
     overflow-wrap: break-word;
-    margin: 50px 0 0 100px;
+    margin: 3rem 0 0 10rem;
     width: 500px;
-    height: 300px;
+    height: 250px;
     font-family: 'Rubik', sans-serif;
     display: grid;
     float: left;
 }
 
+.para-me {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
 .about-dibba .pp {
-    font-size: 17px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.abme-img {
+    position: absolute;
+    top: 50rem;
+    left: 50rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 100rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 90px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.25em;
+    position: relative;
 }
