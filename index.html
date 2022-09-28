@@ -5,29 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atharv Gupta</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="icon" href="icon\favicon.ico">
 </head>
 
 
 <body>
-    <script src="js/bootstrap.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
 
     <div class="pehla-dibba">
         <div class="header">
@@ -58,39 +55,57 @@
 
     <div class="dusra-dibba">
         <div class="about" id="id1">
-            <h1>ABOUT</h1>
+            <h1 class="abtext">ABOUT</h1>
         </div>
-    
-        <div class="about-dibba">
-            <!--<h2 class="aboutme">
-                about me...
-            </h2>-->
-            <div class="para-me">
-                <p class="pp">I am a student at Vellore Institute of Technology, Vellore pursuing Computer Science Engineering.</p>
-                <p class="pp">I have learned Python, C/C++, HTML, and CSS in the past, and I am currently learning Java. I love to explore new technologies and am passionate about software and development.</p>
+        
+        <div class="clearfix">
+            <div class="about-dibba">
+                <!--<h2 class="aboutme">
+                    about me...
+                </h2>-->
+                <div class="para-me">
+                    <p class="pp">I am a student at Vellore Institute of Technology, Vellore pursuing Computer Science Engineering.</p>
+                    <p class="pp">I have learned Python, C/C++, HTML, and CSS in the past, and I am currently learning Java. I love to explore new technologies and am passionate about software and development.</p>
+                </div>
+            </div>
+        
+            <div class="abme-img">
+                <img src="images/computer.png" alt="pin board image" class="img-me">
             </div>
         </div>
-    
-        <div class="abme-img">
-            <img src="images/computer.png" alt="pin board image" class="img-me">
-        </div>
     </div>
-    
     
     <div class="teesra-dibba">
         <div class="skills" id="id2">
-            <h1>SKILLS</h1>
+            <h1 class="sktext">SKILLS</h1>
         </div>
-    
-        <div class="skills-dibba1">
-            <p class="python">Python</p>
+
+        <div class="clearfix">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col">Python<img src="./icon/python.png" class="python"></div>
+                    <div class="col">C/C++<img src="./icon/icons8-c++-100.png" class="cpp"></div>
+                    <div class="w-100"></div>
+                    <div class="col">HTML/CSS<img src="./icon/html.png" class="html"><img src="./icon/css-3.png" class="css"></div>
+                    <div class="col">Adobe Photoshop<img src="./icon/photoshop.png" class="pht"></div>
+                </div>
+            </div>
         </div>
-    
-        <div class="skills-img">
-            <img src="images\brain.png" alt="skills image" class="skillimg">
-        </div>
-    
-        <!--skills: python, c++, html, css, photoshop-->
     </div>
+
+    <div class="chautha-dibba">
+        <div class="contact-div" id="id3">
+            <h1 class="contact">CONTACT ME</h1>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-3"><a href="https://github.com/atharvvvg" target="_blank"><img src="./icon/github.png" class="github"></a></div>
+                    <div class="col-3"><a href="https://www.linkedin.com/in/atharv-gupta-039805210/" target="_blank"><img src="./icon/linkedin.png" class="linkedin"></a></div>
+                    <div class="col-3"><a href="mailto:atharv230303@gmail.com" target="_blank"><img src="./icon/email.png" class="email"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

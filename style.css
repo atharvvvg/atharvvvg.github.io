@@ -3,13 +3,21 @@ html {
 }
 
 body {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0; 
+    border: 0;
+    width: 100%;
 }
+
+
 
 .pehla-dibba {
     /*background-image: url('19184237_6068294.jpg');*/
     background-image: url('images/23191005_Background_with_line_wave_pattern_5.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     height: 700px;
 }
 
@@ -64,13 +72,14 @@ li a {
 }
 
 li a:hover {
+    text-decoration: none   ;
     color: #0078AA;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -ms-transition: all 100ms ease;
     -o-transition: all 100ms ease;
     transition: all 100ms ease;
-    transition-delay: 200ms;
+    transition-delay: 100ms;
 }
 
 ul {
@@ -101,50 +110,67 @@ ul {
     letter-spacing: -0.1rem;
 }
 
-.dusra-dibba {
+/*.dusra-dibba {
     margin: 0 0 0 0;
-    /*background-image:url('plain-beige-background-texture.jpg');*/
+    /*background-image:url('plain-beige-background-texture.jpg');//
     background-color: rgb(223, 238, 234);
     width: 100%;
+}*/
+
+.dusra-dibba {
+    margin: 0 0 0 0;
+    width: 100%;
+    /*background: linear-gradient(-45deg, rgb(223, 238, 234), #e5ebf3,  #cad6e6);*/
+    background: linear-gradient(-45deg, #758c78, #b8bfa0, #d6d4ae);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .about {
     display: flex;
     flex-direction: column;
     place-items: center;
-    gap: 100rem;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 90px;
     margin: 0 auto;
     text-align: center;
     line-height: 0.25em;
     position: relative;
-    height: 30rem;
+}
+
+.abtext {
+    font-size: 10rem;
 }
 
 .about-dibba {
-    background: rgba(255, 255, 255, 0.18);
+    float: left;
+    background: rgba(255, 255, 255, 0.12);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.4px);
-    -webkit-backdrop-filter: blur(6.4px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    left: 6em;
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
     z-index: 1;
     padding: 10px;
-    border-radius: 5%;
-    margin: 0 auto;
-    position: absolute;
-    top: 51em;
-    backdrop-filter: blur(3px);
-    padding: 10px;
+    margin: 0;
+    position: relative;
+    top: -4rem;
+    left: 15rem;
     overflow-wrap: break-word;
-    margin: 3rem 0 0 10rem;
-    width: 500px;
-    height: 250px;
+    width: 35rem;
+    height: 32%;
     font-family: 'Rubik', sans-serif;
-    display: grid;
-    float: left;
 }
 
 .para-me {
@@ -155,34 +181,129 @@ ul {
 }
 
 .about-dibba .pp {
+    min-width: 200px;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .abme-img {
-    position: absolute;
-    top: 54rem;
-    left: 60rem;
+    position: relative;
+    width: 50%;
+    height: auto;
+    float: right;
 }
 
 .img-me {
-    max-width: 50%;
+    width: 35%;
+    min-width: 100px;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .teesra-dibba {
-    height: 100%;
-    background-color: red;
+    width: 100%;
+    background-color: #dfeeea;
 }
 
 .skills {
     display: flex;
     flex-direction: column;
     place-items: center;
-    gap: 100rem;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 90px;
     margin: 0 auto;
     text-align: center;
     line-height: 0.25em;
     position: relative;
+}
+
+.sktext {
+    font-size: 10rem;
+}
+
+.col {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    justify-content: left;
+    margin: 5px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-family: 'Rubik', sans-serif;
+    max-width: 10rem;
+    height: auto;
+    font-size:1.2rem;
+    top: -4rem;
+    float: left;
+}
+
+.python {
+    padding: 10px;
+    width: 60px;
+    height: auto;
+}
+
+.cpp {
+    padding: 10px;
+    width: 60px;
+    height: auto;
+}
+
+.html {
+    padding: 10px;
+    width: 60px;
+    height: auto;
+}
+
+.css {
+    padding: 10px;
+    width: 60px;
+    height: auto;
+}
+
+.pht {
+    padding: 10px;
+    width: 60px;
+    height: auto;
+}
+
+.chautha-dibba {
+    background-color: #eeeadf;
+    display: flex;
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    line-height: 0.25em;
+    position: relative;
+    padding: 10px;
+}
+
+.contact {
+    color: #111520;
+}
+
+.github {
+    width: 30px;
+    height: auto;
+}
+
+.linkedin {
+    width: 30px;
+    height: auto;
+}
+
+.email {
+    width: 30px;
+    height: auto;
 }
