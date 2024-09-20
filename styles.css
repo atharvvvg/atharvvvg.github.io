@@ -1,0 +1,154 @@
+/* styles.css */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eae7e5;
+    color: #333333;
+}
+  
+p {
+    font-family: "PT Mono", monospace;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+  
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #333333;
+}
+  
+.nav-links a {
+    font-family: "Source Code Pro", monospace;
+    padding: 0.8rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333333;
+}
+
+.nav-links a:hover {
+    background-color: #333333;
+    color: #eae7e5;
+}
+
+.current-page {
+    background-color: #333333;
+    color: #eae7e5 !important;
+}
+  
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+img {
+    padding: 1rem;
+    width: 15rem;
+    height: auto;
+}
+
+#bas-info {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#uni-link {
+    color: rgb(69, 105, 224);
+    text-decoration: none;
+}
+
+#uni-link:hover, ::selection {
+    color: rgb(141, 159, 215);
+    text-decoration: none;
+}
+  
+#hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+  
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+  
+#projects h2,
+#experience h2,
+#resume h2,
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+  
+#projects , #contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+  
+#projects li {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+#contact li {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgb(69, 105, 224);
+}
+
+#contact a:hover {
+    color: rgb(141, 159, 215);
+}
+
+#projects a {
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+    color: rgb(69, 105, 224);
+}
+
+#projects a:hover {
+    color: rgb(141, 159, 215);
+}
+  
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+  
+footer a {
+    color: #333333;
+    text-decoration: none;
+    color: rgb(69, 105, 224);
+}
+  
+footer a:hover {
+    color: rgb(141, 159, 215);
+}
+
+@media screen and (max-width: 570px) {
+    .nav-links a {
+        display:flex;
+    }
+}
